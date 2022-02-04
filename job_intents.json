@@ -1,0 +1,59 @@
+{
+  "intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day", "Hey", "Ekse", "Hi"],
+     "responses": ["Hi stranger", "hola yes, how can I help","Hola", "Hey dude", "You again" , "How you doing?"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "Ok bye", "Bye Bye" , "bye"],
+     "responses": ["See you!", "Have a nice day", "Sure Bye", "Later dude", "Sayoonara", "Peace out", "Sure dude", "Ciao"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You are welcome", "Sure dude" , "dattebayo"]
+    },
+    {"tag": "noanswer",
+     "patterns": [],
+     "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand", "I am still here dude" , "Yeah"]
+     },
+     {"tag": "name",
+      "patterns": ["What is your name", "Whats your name", "Tell me your name", "Who are you", "Ungubani", "Tell me about yourself", "You are"],
+      "responses": ["I am AIBot", "My name is AIDieticianBot", "You can call me AIBot for short", "I am AIDietician Bot, my friends call me AIBot", "AIBot is my name" , "I am Bot, AIBot!"]
+      },
+      {"tag": "options",
+       "patterns": ["What do you do", "How can you help", "What do you know", "What is your purpose", "How can you help"],
+       "responses": ["I can tell you about diet tips", "I can give you interesting facts about health" , "I can solve health related queries", "I can answer any diet related queries" , "Ask me anything about diet"]
+      },
+     {"tag": "diet_info",
+      "patterns": ["diet information", "diet plan for better health", "diet plan", "diet chart", "What about healthy diet", "What do you know about diet", "Tell me more about diet products", "what I eat to get better body", "Tell me about diet", "What about Diet", "What do you know about diet plans", "Tell me more about good diet"],
+      "responses": ["Eating lots of vegetables and fruit. This is one of the most important diet habits" , "Making water your drink of choice. Water supports health and promotes hydration without adding calories to the diet.", "Low-carb, whole-food diet. The low-carb, whole-food diet is perfect for people who need to lose weight, optimize health, and lower their risk of disease." , "There are seven essential factors for a balanced diet: carbs, protein, fat, fibre, vitamins, minerals and water." , "Limit processed foods.Stop eating refined carbs. Avoid vegetable oils and spreads." , "eat vegetables and legumes (beans) fruit. grains and cereals. lean meat, poultry, fish, eggs, legumes (beans) tofu, nuts, seeds" , "A balanced diet is a diet that contains differing kinds of foods in certain quantities and proportions so that the requirement for calories, proteins, minerals, vitamins and alternative nutrients is adequate and a small provision is reserved for additional nutrients to endure the short length of leanness."]
+      },
+      {"tag": "health_facts",
+       "patterns": ["Health tips", "diet tips", "how can i be healthy", "increase metabolism", "healthy", "body health", "diet for good body", "diet chart", "Tell me something about diet" , "Tell me something about health" , "ways to stay healthy" , "health ways" , "ways to maintain health?" , "healthy habits"],
+       "responses": [
+         "Eat a healthy diet.Consume less salt and sugar.Reduce intake of harmful fats." , "Eat more fruits and veggies.Choose whole grains. Try brown rice instead of white. Switch to whole wheat pasta.Choose lean proteins like poultry, fish, beans, and legumes." , "Cut down on salt. If you have a diet high in salt, it's likely that your blood pressure could be high too ? which means you have an increased risk of suffering from heart disease or stroke. ...Eat less sugar. ...Limit saturated fat." , "Maintain a Healthy Weight.Exercise Regularly. Don't Smoke. Eat a Healthy Diet" , "Stay Active. Physical activity is beneficial for overall health ? and that includes bladder and bowel function!" , "Be More Active and Exercise. Exercise offers so many health benefits, it's nothing short of a magic bullet. Maintain a Healthy Weight."
+       ]
+      },
+      {"tag": "doctor_vashi",
+     "patterns": ["doctor in vashi" , "vashi doctor", "doctor vashi", "dietitian in vashi" , "vashi dietitian" , "dietitian vashi" , "near vashi" , "doctor in vashi" , "dietician in vashi" , "dietician in vashi" , "dietician near vashi" , "vashi dietician" , "dietician vashi" , "Vashi" , "nutritionist" , "nutritionist in vashi" , "doctor in vashi" , "vashi doctor"],
+     "responses": ["Dr. Sandhya Singh ,AYUSH Dietitian/Nutritionist, 15 years experience overall, Kopar Khairne,Navi Mumbai  Dr. Sandhya's Cosmetic Clinic Rs.400 Consultation fee at clinic" ,
+      "Ms. Ritu Maheshwari, Dietitian/Nutritionist, 9 years experience overall, Vashi,Navi Mumbai  Belle Vous Clinique, Rs. 1000 Consultation fee at clinic" ,
+      "Ms. Swati Bhushan, Dietitian/Nutritionist, 20 years experience overall, Vashi,Navi Mumbai  Fortis Hiranandani Hospital, Rs. 600 Consultation fee at clinic" ,
+      "Ms. Shilpa Harinam Singh, Dietitian/Nutritionist, 7 years experience overall, Vashi,Navi Mumbai  Cloudnine Hospital Rs.1000 Consultation fee at clinic"]
+    },
+    {"tag": "doctor_nerul",
+     "patterns": ["doctor in nerul" , "nerul doctor", "doctor nerul", "dietitian in nerul" , "nerul dietitian" , "dietitian nerul" , "near nerul" , "doctor in nerul" , "dietician in nerul" , "dietician in nerul" , "dietician near nerul" , "nerul dietician" , "dietician nerul" , "nerul" , "nutritionist" , "nutritionist in nerul" , "doctor in nerul" , "nerul doctor"],
+     "responses": ["Dr. Minakshi A. Kurhe, Dietitian/Nutritionist, 24 years experience overall, Nerul,Navi Mumbai  Dr. Minakshi Kurhe Clinic, Rs.500 Consultation fee at clinic" ,
+     "Dr. Shabana shaikh, AYUSH Dietitian/Nutritionist, 8 years experience overall, Nerul,Navi Mumbai  Health Care Medical Center, 500 Consultation fee at clinic"]
+      },
+      {"tag": "doctor_miraroad",
+     "patterns": ["doctor in miraroad" , "miraroad doctor", "doctor miraroad", "dietitian in miraroad" , "miraroad dietitian" , "dietitian miraroad" , "near miraroad" , "doctor in miraroad" , "dietician in miraroad" , "dietician in miraroad" , "dietician near miraroad" , "miraroad dietician" , "dietician miraroad" , "miraroad" , "nutritionist" , "nutritionist in miraroad" , "doctor in miraroad" , "miraroad doctor" , "Mira road"],
+     "responses": ["Ms. Sajida Shaikh, Dietitian/Nutritionist, 3 years experience overall, Mira Road,Mumbai  NS Slim Fitness Studio, Rs.1000 Consultation fee at clinic",
+     "Ms. Nishat Ashfaq, Dietitian/Nutritionist, 6 years experience overall, Mira Road,Mumbai  My Health Funda, Rs.750 Consultation fee at clinic"]
+      },
+      {"tag": "doctor_mumbai",
+     "patterns": ["doctor in mumbai" , "mumbai doctor", "doctor mumbai", "dietitian in mumbai" , "mumbai dietitian" , "mumbai miraroad" , "near mumbai" , "doctor in mumbai" , "dietician in mumbai" , "dietician in mumbai" , "dietician near mumbai" , "mumbai dietician" , "dietician mumbai" , "mumbai" , "nutritionist" , "nutritionist in mumbai" , "doctor in mumbai" , "mumbai doctor" , "Mumbai"],
+     "responses": ["1. Ms. Geeta Shenoy, Dietitian/Nutritionist, 31 years experience overall, Chembur East,Mumbai  Nutrition & Wellness Clinic, 1500 Consultation fee at clinic. 2 Dr. Anita Gupta, AYUSH, Dietitian/Nutritionist, 25 years experience overall, Mulund West,Mumbai  Aharayogam Rs.2000 Consultation fee at clinic. 3. Dr. Asmita Sawe, Dietitian/Nutritionist, 14 years experience overall, Vileparle East,Mumbai  Rejoice Wellness, Rs.1500 Consultation fee at clinic. 4. Ms. Bina Bhavanji Chheda Dietitian/Nutritionist, 26 years experience overall, Borivali West,Mumbai  Bina Chheda, Dietician Centre + 4 more, Rs. 1500 Consultation fee at clinic. 5. Dr. Zubeda Tumbi (PhD), Dietitian/Nutritionist, 32 years experience overall, Andheri West,Mumbai  Healthwatch Nutrition Clinic, Rs. 1000 Consultation fee at clinic"]
+      }
+  ]
+}
